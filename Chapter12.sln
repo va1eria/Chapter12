@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringLib", "MonitoringLib\MonitoringLib.csproj", "{D6E833D4-3F30-4523-9B11-958DE271C359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringLib", "MonitoringLib\MonitoringLib.csproj", "{D6E833D4-3F30-4523-9B11-958DE271C359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringApp", "MonitoringApp\MonitoringApp.csproj", "{A8F5054C-D8B7-4F0A-B008-18B394AB31CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringApp", "MonitoringApp\MonitoringApp.csproj", "{A8F5054C-D8B7-4F0A-B008-18B394AB31CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarking", "Benchmarking\Benchmarking.csproj", "{4C153E6E-374B-4B85-8DE4-7C010571BE5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarking", "Benchmarking\Benchmarking.csproj", "{4C153E6E-374B-4B85-8DE4-7C010571BE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTasks", "WorkingWithTasks\WorkingWithTasks.csproj", "{B0ABA9CA-E0FB-4125-9055-1D20625F143D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedAndChildTasks", "NestedAndChildTasks\NestedAndChildTasks.csproj", "{A5B480A4-0D3F-470A-A6C9-C04184594DA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{4C153E6E-374B-4B85-8DE4-7C010571BE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C153E6E-374B-4B85-8DE4-7C010571BE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C153E6E-374B-4B85-8DE4-7C010571BE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0ABA9CA-E0FB-4125-9055-1D20625F143D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0ABA9CA-E0FB-4125-9055-1D20625F143D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0ABA9CA-E0FB-4125-9055-1D20625F143D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0ABA9CA-E0FB-4125-9055-1D20625F143D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B480A4-0D3F-470A-A6C9-C04184594DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B480A4-0D3F-470A-A6C9-C04184594DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B480A4-0D3F-470A-A6C9-C04184594DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B480A4-0D3F-470A-A6C9-C04184594DA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
